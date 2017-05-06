@@ -14,11 +14,12 @@ public class CreateTest {
 
 	@Before
 	public void setUp() throws Exception {
+		UserResource userResource=new  UserResource();
 	}
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+			fail("Not yet implemented");
 	}
 
 }
