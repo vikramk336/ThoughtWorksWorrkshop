@@ -1,0 +1,67 @@
+User Managment 
+
+1) Create
+
+check if user has paid 
+
+
+url: usermanagment/create/
+
+request type: http post
+
+(post body)
+json:
+{
+"firstname": "xxx"
+"lastname":""
+"role":""
+
+}
+
+
+Response: status(string)
+
+
+2) Delete
+
+needs internal service to check outstanding transactions
+
+request type: delete
+
+url: usermanagment/delete/id
+
+
+response:satus (string)
+
+
+3) Update
+
+Request type: put
+
+url: usermanagment/update/id
+
+
+response: string
+
+
+4)Authenticate
+
+request type : get
+
+url: usermanagment/authenticate/id
+
+
+response: string/json
+
+
+5) report
+
+request type: get
+
+url: usermanagment/report/
+
+
+
+
+
+
